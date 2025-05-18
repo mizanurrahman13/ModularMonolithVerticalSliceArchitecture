@@ -1,4 +1,6 @@
-﻿namespace Modules.Carriers.Domain.Entities;
+﻿using Modules.Carriers.Domain.ValueObjects;
+
+namespace Modules.Carriers.Domain.Entities;
 
 public class CarrierShipment
 {
