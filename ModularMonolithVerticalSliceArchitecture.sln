@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Carriers", "Carriers", "{349BA8FE-8E11-4ADB-B1EF-83378A4748C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modules.Carriers.Domain", "Modules\Carriers\Modules.Carriers.Domain\Modules.Carriers.Domain.csproj", "{8074AB63-5003-4735-B88D-BEC593BF65C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8074AB63-5003-4735-B88D-BEC593BF65C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8074AB63-5003-4735-B88D-BEC593BF65C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8074AB63-5003-4735-B88D-BEC593BF65C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8074AB63-5003-4735-B88D-BEC593BF65C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{349BA8FE-8E11-4ADB-B1EF-83378A4748C6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8074AB63-5003-4735-B88D-BEC593BF65C4} = {349BA8FE-8E11-4ADB-B1EF-83378A4748C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0899E56-2D8F-4AEC-942F-D87119F09EAA}
+	EndGlobalSection
+EndGlobal
