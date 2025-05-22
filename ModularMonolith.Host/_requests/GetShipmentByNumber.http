@@ -1,0 +1,4 @@
+### Get Shipment by Number
+@host = https://localhost:7187
+
+GET {{host}}/api/shipments/08490520

@@ -1,0 +1,26 @@
+### Create Shipment
+# @host = https://localhost:7187
+POST {{host}}/api/shipments
+Content-Type: application/json
+
+{
+    "number": "10000033",
+    "orderId": "11100043",
+    "carrier": "DHL",
+    "receiverEmail": "TODO: SET EMAIL HERE",
+    "address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "zip": "12345"
+    },
+    "items": [
+        {
+            "product": "Ergonomic Granite Shirt",
+            "quantity": 10
+        },
+        {
+            "product": "Sleek Concrete Chips",
+            "quantity": 10
+        }
+    ]
+}

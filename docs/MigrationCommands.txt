@@ -1,0 +1,20 @@
+=> Carrier:
+Add: dotnet ef migrations add Initial_Migration -c CarriersDbContext  -p .\Modules\Carriers\Modules.Carriers.Infrastructure  -s .\ModularMonolith.Host -o Database\Migrations
+
+Update: dotnet ef database update -c CarriersDbContext  -p .\Modules\Carriers\Modules.Carriers.Infrastructure  -s .\ModularMonolith.Host
+
+Remove: dotnet ef migrations remove -c CarriersDbContext  -p .\Modules\Carriers\Modules.Carriers.Infrastructure  -s .\ModularMonolith.Host --force
+
+=> Shipments:
+Add: dotnet ef migrations add Initial_Migration -c ShipmentsDbContext  -p .\Modules\Shipments\Modules.Shipments.Infrastructure  -s .\ModularMonolith.Host -o Database\Migrations
+
+Update: dotnet ef database update -c ShipmentsDbContext  -p .\Modules\Shipments\Modules.Shipments.Infrastructure  -s .\ModularMonolith.Host
+
+Remove: dotnet ef migrations remove -c ShipmentsDbContext  -p .\Modules\Shipments\Modules.Shipments.Infrastructure  -s .\ModularMonolith.Host --force
+
+=> Stocks:
+Add: dotnet ef migrations add Initial_Migration -c StocksDbContext  -p .\Modules\Stocks\Modules.Stocks.Infrastructure  -s .\ModularMonolith.Host -o Database\Migrations
+
+Update: dotnet ef database update -c StocksDbContext  -p .\Modules\Stocks\Modules.Stocks.Infrastructure  -s .\ModularMonolith.Host
+
+Remove: dotnet ef migrations remove -c StocksDbContext  -p .\Modules\Stocks\Modules.Stocks.Infrastructure  -s .\ModularMonolith.Host --force

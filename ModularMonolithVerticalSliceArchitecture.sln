@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modules.Stocks.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modules.Stocks.PublicApi", "Modules\Stocks\Modules.Stocks.PublicApi\Modules.Stocks.PublicApi.csproj", "{C8B21CD4-880A-40C8-A140-E8BDB353C5D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolith.Host", "ModularMonolith.Host\ModularMonolith.Host.csproj", "{EBD13D7F-2398-478E-8443-8BC6B546FAC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{C8B21CD4-880A-40C8-A140-E8BDB353C5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8B21CD4-880A-40C8-A140-E8BDB353C5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8B21CD4-880A-40C8-A140-E8BDB353C5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD13D7F-2398-478E-8443-8BC6B546FAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD13D7F-2398-478E-8443-8BC6B546FAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD13D7F-2398-478E-8443-8BC6B546FAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD13D7F-2398-478E-8443-8BC6B546FAC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
